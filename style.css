@@ -1,0 +1,146 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar-brand{
+    font-family: 'Special Elite', cursive;
+}
+.intro{
+    margin-top: 20px;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 150px 0;   
+}
+.myImg{
+  text-align: center;
+
+}
+
+#intro{
+    font-family: 'Special Elite', cursive;
+}
+a:link{
+    text-decoration: none;
+}
+/* .myImg{
+    display: flex;
+    justify-content: center;
+} */
+#aboutMe{
+    margin-top: 250px;
+}
+.projects_title{
+    text-align: center;
+    font-size: 30pt;
+    margin-bottom: 25vh;
+    font-family: 'Special Elite', cursive;
+    margin-top: 20vh;
+}
+.projects{
+  margin-bottom: 5vh;
+}
+.containerA {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-left: 15px;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  
+  }
+  .top-right{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .fab {
+      color: white;
+  }
+  .fas{
+      color: white;
+  }
+
+  #projectType{
+      text-align: center;
+      font-family: 'Special Elite', cursive;
+      margin-top: 10vh;
+      font-size: 20pt;
+  }
+  #typeTwo{
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    margin-top: 10vh;
+    word-wrap: break-word;
+    font-size: 20pt;
+  }
+
+  .contact_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    color: black;
+    font-size: 6vh;
+  }
+
+  .contactHeader{
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 30pt;
+    margin-top: 15vh;
+  }
+  
+  .contact {
+    color: black;
+  
+    background-size: cover;
+    font-size: 4vh;
+    text-align: center;
+ 
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #003366;
+    color: black;
+  
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0047ab;
+    background-image: url("./portfolio_images/200.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .footer{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+    height: 35px;
+  }
+  #footerName{
+    margin-top: 5px;
+  }

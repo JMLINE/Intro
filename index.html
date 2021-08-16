@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>J.Line</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">JL</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#aboutMe"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#myProjects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="space" style="margin-bottom: 10vw"></div>
+
+    <!-- First Section -->
+    <div class="container myContainer">
+      <div class="row">
+        <div class="col-lg-6 myImg" data-aos="fade-right">
+          <img src="./images/meo.png" width="200px" />
+        </div>
+        <div class="col-lg-6 intro" data-aos="fade-left">
+          <h1 id="intro">Oh, Hi!</h1>
+          <br />
+          <p>I'm a Web Developer</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="aboutMe">
+      <div class="row">
+        <div class="col-lg-6 indyImg" data-aos="fade-down-right">
+          <img
+            src="./images/indy.jpg"
+            class="img-fluid"
+            width="75%"
+            height="50px"
+            text-align="center"
+          />
+        </div>
+        <div class="col-md-6 intro" data-aos="fade-down-right">
+          <p>
+            Jason is a passionate Web Developer based out of Indianapolis,
+            Indiana and is currently working at
+            <a href="https://elevenfifty.org/">Eleven Fifty Academy</a>. He
+            enjoys building full-stack applications as well as writing about
+            himself in the third person.
+          </p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <div class="projects_title" id="myProjects" data-aos="fade-down">
+      <b>Projects</b>
+    </div>
+    <div class="col-lg-12 projects" id="projectType">Full Stack Apps</div>
+    <br />
+    <div class="projects-container-fluid" data-aos="fade-right">
+      <div class="row">
+        <div class="col-lg-4 projects">
+          <div class="containerA">
+            <img src="./images/fishes.jpg" alt="Snow" style="width: 100%" />
+            <div class="bottom-left">
+              <a href="https://jl-fishapp2-front.herokuapp.com/" target="blank"
+                ><i class="fas fa-external-link-alt fa-2x"></i
+              ></a>
+            </div>
+            <a
+              href="https://github.com/JMLINE/fishapp2.0-front"
+              target="blank"
+              class="top-right"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 projects">
+          <div class="containerA">
+            <img src="./images/movie.jpg" alt="Snow" style="width: 100%" />
+            <!-- <div class="bottom-left">
+              <a href="https://github.com/joshHawks1823/" target="blank"
+                ><i class="fas fa-external-link-alt fa-2x"></i
+              ></a>
+            </div> -->
+            <a
+              href="https://github.com/joshHawks1823/movie-api"
+              target="blank"
+              class="top-right"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-lg-4 projects">
+          <div class="containerA">
+            <img src="./images/number23.jpg" alt="Snow" style="width: 100%" />
+            <div class="bottom-left">
+              <a
+                href="https://jl-new-movie-app-client.herokuapp.com/"
+                target="blank"
+                ><i class="fas fa-external-link-alt fa-2x"></i
+              ></a>
+            </div>
+            <a
+              href="https://github.com/JMLINE/new_movie_app_frontend"
+              target="blank"
+              class="top-right"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!-- Row 2 -->
+    <div class="col-lg-12 projects" id="typeTwo">
+      Basic Apps and General Silliness
+    </div>
+    <br />
+    <div class="projects-container-fluid" data-aos="fade-right">
+      <div class="row">
+        <!-- <div class="col-lg-2 projects"></div> -->
+        <div class="col-lg-4 projects">
+          <div class="containerA">
+            <img src="././images/weather3.jpg" alt="Snow" style="width: 100%" />
+            <div class="bottom-left">
+              <a href="https://jmline.github.io/WeatherApp/" target="blank"
+                ><i class="fas fa-external-link-alt fa-2x"></i
+              ></a>
+            </div>
+            <a
+              href="https://github.com/JMLINE/WeatherApp"
+              target="blank"
+              class="top-right"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-lg-4 projects">
+          <div class="containerA">
+            <img src="./images/lights.jpg" alt="Snow" style="width: 100%" />
+            <div class="bottom-left">
+              <a href="https://jmline.github.io/CSS-Creature/" target="blank"
+                ><i class="fas fa-external-link-alt fa-2x"></i
+              ></a>
+            </div>
+            <a
+              href="https://github.com/JMLINE/CSS-Creature"
+              target="blank"
+              class="top-right"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 projects">
+          <div class="containerA">
+            <img src="./images/90s.jpg" alt="Snow" style="width: 100%" />
+            <div class="bottom-left">
+              <a
+                href="https://jl-php.000webhostapp.com/login.php"
+                target="blank"
+                ><i class="fas fa-external-link-alt fa-2x"></i
+              ></a>
+            </div>
+            <a
+              href="https://github.com/JMLINE/First_PHP_Project"
+              target="blank"
+              class="top-right"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contactHeader" id="contact">Contact</div>
+
+    <div class="row">
+      <div
+        class="col-lg-6 contact1"
+        style="margin-top: 10vh; text-align: center"
+      >
+        Feel free to reach out and I will respond just as soon as I can.<br />
+        <br />
+        <iframe
+          class="responsive-iframe"
+          style="width: 100%; height: 50vh; text-align: center"
+          src="https://jmline.github.io/orb/"
+          title="description"
+        ></iframe>
+      </div>
+
+      <div class="col-lg-6 contact">
+        <form action="https://formspree.io/xzbzpdpw" method="POST">
+          <label for="fname"></label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Name..."
+          />
+          <label for="email"></label>
+          <input type="text" id="email" name="em" placeholder="Email..." />
+
+          <label for="subject"></label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message..."
+            style="height: 100px"
+          ></textarea>
+
+          <input
+            type="submit"
+            value="Submit"
+            style="width: 100%; align-self: center; color: white"
+          />
+        </form>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <div class="footer">Jason Line 2021</div>
+
+    <script
+      src="https://kit.fontawesome.com/8ab78ac859.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
